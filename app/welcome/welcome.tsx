@@ -28,7 +28,7 @@ export function Welcome() {
           <option>Collecting Stamp</option>
           <option>Coding</option>
           <option>Watching TV</option>
-          <option>Eating an elephant</option>
+          <option>Eat an elephant</option>
           <option>Reading Lourem Lapse</option>
         </select>
 
@@ -48,7 +48,7 @@ export function Welcome() {
 
         <input type="text" placeholder="What is your Name?" className="min-w-[72.82vw] h-[3.27vh] rounded-[5px] border-1 border-black pl-[1.21vw]"/>
         <input type="password" placeholder="Tell me a secret" className="w-[72.82vw] h-[3.27vh] rounded-[5px] border-1 border-black pl-[1.21vw]"/>
-        <input type="number" placeholder="tell me your age" className="w-[72.82vw] h-[3.27vh] rounded-[5px] border-1 border-black pl-[1.21vw]"/>
+        <input type="number" placeholder="tell me your age" className="w-[72.82vw] h-[3.27vh] rounded-[5px] border-1 border-black pl-[1.21vw]" min="1"/>
 
         <label htmlFor="textarea" className="text-[4.85vw]">Tell me about your self</label>
         <textarea rows={5} className="resize-none w-[72.82vw] h-[8vh] rounded-[5px] border-1 border-black pl-[1.21vw]"/>
@@ -58,7 +58,7 @@ export function Welcome() {
           <option>Collecting Stamp</option>
           <option>Coding</option>
           <option>Watching TV</option>
-          <option>Eating an elephant</option>
+          <option>Eat an elephant</option>
           <option>Reading Lourem Lapse</option>
         </select>
 
