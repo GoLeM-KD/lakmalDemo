@@ -18,7 +18,7 @@ export function Welcome() {
 
         <input type="text" placeholder="What is Your Name" className="w-[28.65vw] h-[4vh] border-1 border-black rounded-[5px] pl-[0.16vw]"/>
         <input type="password" placeholder="Tell me a secret"  className="w-[28.65vw] h-[4vh] border-1 border-black rounded-[5px] pl-[0.16vw]"/>
-        <input type="number" placeholder="tell me your age"  className="w-[28.65vw] h-[4vh] border-1 border-black rounded-[5px] pl-[0.16vw]"/>
+        <input type="number" placeholder="tell me your age"  className="w-[28.65vw] h-[4vh] border-1 border-black rounded-[5px] pl-[0.16vw]" min="1"/>
 
         <label htmlFor="textarea" className="text-[1.3vw]">Tell me about your self</label>
         <textarea rows={5} className="resize-none w-[28.65vw] h-[7.41vh] border-1 border-black rounded-[5px] pl-[0.16vw]"/>
