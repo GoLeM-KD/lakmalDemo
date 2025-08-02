@@ -40,7 +40,7 @@ export function Welcome() {
       </form>
 
       {/*---------------------------------------------Mobile------------------------------------------------------------------------- */}
-      <form className="flex md:hidden w-[97.09vw] h-[80vh] border-1 border-black justify-center items-center flex-col gap-[3.27vh] rounded-[15px] text-[3.64vw]">
+      <form className="flex md:hidden w-[97.09vw] h-[90vh] border-1 border-black justify-center items-center flex-col gap-[3.27vh] rounded-[15px] text-[3.64vw]">
 
 
         <div className="w-full h-[9.81vh] flex flex-col justify-center items-center gap-[1.64vh]">
