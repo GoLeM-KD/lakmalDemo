@@ -20,6 +20,9 @@ export function Welcome() {
         <input type="password" placeholder="Tell me a secret"  className="w-[28.65vw] h-[4vh] border-1 border-black rounded-[5px] pl-[0.16vw]"/>
         <input type="number" placeholder="tell me your age"  className="w-[28.65vw] h-[4vh] border-1 border-black rounded-[5px] pl-[0.16vw]" min="1"/>
 
+        <label htmlFor="birthDate"  className="text-[1.3vw]">Tell Me your Birthday</label>
+        <input type="date" className="w-[28.65vw] h-[4vh] border-1 border-black rounded-[5px] pl-[0.16vw]"/>
+
         <label htmlFor="textarea" className="text-[1.3vw]">Tell me about your self</label>
         <textarea rows={5} className="resize-none w-[28.65vw] h-[7.41vh] border-1 border-black rounded-[5px] pl-[0.16vw]"/>
 
@@ -49,6 +52,9 @@ export function Welcome() {
         <input type="text" placeholder="What is your Name?" className="min-w-[72.82vw] h-[3.27vh] rounded-[5px] border-1 border-black pl-[1.21vw]"/>
         <input type="password" placeholder="Tell me a secret" className="w-[72.82vw] h-[3.27vh] rounded-[5px] border-1 border-black pl-[1.21vw]"/>
         <input type="number" placeholder="tell me your age" className="w-[72.82vw] h-[3.27vh] rounded-[5px] border-1 border-black pl-[1.21vw]" min="1"/>
+
+        <label htmlFor="birthDate" className="text-[4.85vw]">Tell Me your Birthday</label>
+        <input type="date" className="w-[72.82vw] h-[3.27vh] rounded-[5px] border-1 border-black pl-[1.21vw]"/>
 
         <label htmlFor="textarea" className="text-[4.85vw]">Tell me about your self</label>
         <textarea rows={5} className="resize-none w-[72.82vw] h-[8vh] rounded-[5px] border-1 border-black pl-[1.21vw]"/>
